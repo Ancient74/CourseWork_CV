@@ -1,0 +1,9 @@
+*.mp3
+*.wav
+Data/
+precomputed_data/
+.ipynb_checkpoints/
+.vscode/
+__pycache__/
+*.zip
+*.ipynb
