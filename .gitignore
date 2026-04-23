@@ -7,3 +7,4 @@ precomputed_data/
 __pycache__/
 *.zip
 *.ipynb
+*.keras
