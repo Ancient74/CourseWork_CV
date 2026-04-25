@@ -125,6 +125,6 @@ def precalculate_dataset(input_chunks, output_chunks, save_dir="precomputed_data
 
     print(f"Done! Data saved to {save_dir}")
 
-
-input_data, output_data = read_data(training_data_path)
-precalculate_dataset(input_data, output_data)
+if __name__ == "__main__":
+    input_data, output_data = read_data(training_data_path)
+    precalculate_dataset(input_data, output_data)
